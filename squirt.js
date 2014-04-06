@@ -210,7 +210,7 @@ sq.host =  window.location.search.match('sq-dev') ?
         modal.innerHTML = '<div class="error">Oops! This page is too hard for Squirt to read. We\'ve been notified, and will do our best to resolve the issue shortly.</div>';
     };
 
-    dispatch('squirt.wpm', {value: 400, notForKeen: true});
+    dispatch('squirt.wpm', {value: 800, notForKeen: true});
 
     var wordContainer,
         prerenderer,
